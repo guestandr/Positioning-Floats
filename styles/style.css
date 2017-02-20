@@ -1,0 +1,176 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	color: #333333;
+	line-height: 1.2;
+	height: 2000px;
+	background: white;
+}
+
+
+h1 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 0px;
+}
+
+
+h2 {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+
+h3 {
+	font-size: 9px;
+	font-weight: normal;
+	text-align: center;
+}
+
+
+p {
+	font-size: 12px;
+}
+
+article {
+	margin-top: 20px;
+}
+
+section {
+	margin-top: 15px;
+}
+
+
+.wrapper-center {
+	width: 540px;
+	margin: 160px auto;
+
+}
+
+.wrapper {
+	overflow: hidden;
+}
+
+
+.layout-left {
+	position: relative;
+	background-color: #ebebeb;
+	margin: -30px 20px 30px -20px;
+	border: 2px solid black;
+	padding: 30px;
+} 
+
+
+.layout-center {
+	position: relative;
+	background-color: #cccccc;
+	margin: -20px 20px 20px -20px;
+	border: 2px solid black;
+
+}
+
+
+.layout-right {
+	position: relative;
+	background-color: #acacac;
+	border: 2px solid black;
+
+}
+
+
+.bookmark-1 {
+  border: 2px solid #000000;
+  background-color: #f68e56;
+  position: absolute;
+  right: -85px;
+  top: 43px;
+  width: 107px;
+  height: 31px;
+  border-radius: 0 10px 10px 0;
+}
+
+
+.bookmark-2 {
+  border: 2px solid #000000;
+  background-color: #39b54a;
+  position: absolute;
+  right: -50px;
+  top: 37px;
+  width: 95px;
+  height: 31px;
+  border-radius: 0 10px 10px 0;
+}
+
+
+.bookmark-3 {
+  border: 2px solid #000000;
+  background-color: #00aeef;
+  position: absolute;
+  right: -14px;
+  top: 40px;
+  width: 95px;
+  height: 31px;
+  border-radius: 0 10px 10px 0;
+}
+
+
+.img-cup, .img-1,  .img-3 {
+	float: left;
+}
+
+
+.img-cup {
+	margin-right: 25px;
+	margin-bottom: 2px;
+}
+
+
+.img-note, .img-2,  .img-4 {
+	float: right;
+}
+
+
+.img-1, .img-2, .img-3, .img-4 {
+	margin-bottom: 18px;
+}  
+
+
+.img-note {
+	margin-left: 8px;
+}
+
+
+.social-links {
+  position: fixed; 	
+  border-width: 1px;
+  border-color: #362f2d;
+  border-style: solid;
+  background-color: #fbaf5d;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  width: 87px;
+  height: 69px;
+}
+
+
+.social-title {
+  font-size: 16px;
+  text-align: center;
+}
+
+
+.social-buttons {
+	position: absolute;
+	width: 79px;
+	height: 22px;
+	top: 30px;
+	left: 3px;
+}
